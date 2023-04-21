@@ -6,6 +6,21 @@ public class Number3 {
         Develop a program which will identify/print the even numbers only.
          */
 
+        int[][] numbers={
+                {11,13,15,17,19},
+                {12,14,16,18,22}
+        };
+        int counter=0;
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers[i].length; j++) {
+                if (numbers[i][j]%2==0){
+                    System.out.println(numbers[i][j]);
+                }
+            }
+        }
+
+
+
 
     }
 }
